@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:xmi="http://www.omg.org/XMI"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  name="model" xmi:id="_0Vw0kIDOEemej5cRfBVkbA" xmi:version="2.0">
+  <eAnnotations source="genmymodel" xmi:id="_0Vw0kYDOEemej5cRfBVkbA">
+    <details key="uuid" value="_ipefIHyTEemZdOOrcag7Wg" xmi:id="_0Vw0koDOEemej5cRfBVkbA"/>
+    <details key="author" value="0xCAF3BAB3" xmi:id="_0Vw0k4DOEemej5cRfBVkbA"/>
+  </eAnnotations>
+  <packageImport xmi:id="_0Vw0lIDOEemej5cRfBVkbA">
+    <eAnnotations source="genmymodel" xmi:id="_0Vw0lYDOEemej5cRfBVkbA">
+      <details key="uuid" value="_ipefIXyTEemZdOOrcag7Wg" xmi:id="_0Vw0loDOEemej5cRfBVkbA"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement name="StateMachine" xmi:id="_0Vw0l4DOEemej5cRfBVkbA" xsi:type="uml:StateMachine">
+    <eAnnotations source="genmymodel" xmi:id="_0Vw0mIDOEemej5cRfBVkbA">
+      <details key="uuid" value="_hGytoV7BEDequv5sn-MDkA" xmi:id="_0Vw0mYDOEemej5cRfBVkbA"/>
+    </eAnnotations>
+    <region name="myRegion" xmi:id="_0Vw0moDOEemej5cRfBVkbA">
+      <eAnnotations source="genmymodel" xmi:id="_0Vw0m4DOEemej5cRfBVkbA">
+        <details key="uuid" value="_hGz7wF7BEDequv5sn-MDkA" xmi:id="_0Vw0nIDOEemej5cRfBVkbA"/>
+      </eAnnotations>
+      <subvertex name="myInitialState" xmi:id="_0Vw0wYDOEemej5cRfBVkbA" xsi:type="uml:Pseudostate">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0woDOEemej5cRfBVkbA">
+          <details key="uuid" value="_j4v34V7BEDequv5sn-MDkA" xmi:id="_0Vw0w4DOEemej5cRfBVkbA"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex name="myUberState" visibility="protected" xmi:id="_0Vw0xIDOEemej5cRfBVkbA"
+        xsi:type="uml:State">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0xYDOEemej5cRfBVkbA">
+          <details key="uuid" value="_kUqX0F7BEDequv5sn-MDkA" xmi:id="_0Vw0xoDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+        <region xmi:id="_0Vw0x4DOEemej5cRfBVkbA">
+          <eAnnotations source="genmymodel" xmi:id="_0Vw0yIDOEemej5cRfBVkbA">
+            <details key="uuid" value="_nHK7sF7BEDequv5sn-MDkA" xmi:id="_0Vw0yYDOEemej5cRfBVkbA"/>
+          </eAnnotations>
+          <subvertex name="myUberInitialState" visibility="public"
+            xmi:id="_0Vw1V4DOEemej5cRfBVkbA" xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1WIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_nHHRUF7BEDequv5sn-MDkA" xmi:id="_0Vw1WYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex kind="entryPoint" name="myEntryPoint" visibility="private"
+            xmi:id="_0Vw1WoDOEemej5cRfBVkbA" xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1W4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_oM5NoF7BEDequv5sn-MDkA" xmi:id="_0Vw1XIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex name="myInitializationState" xmi:id="_0Vw1XYDOEemej5cRfBVkbA"
+            xsi:type="uml:State">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1XoDOEemej5cRfBVkbA">
+              <details key="uuid" value="_pK2DoF7BEDequv5sn-MDkA" xmi:id="_0Vw1X4DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex name="myState1" xmi:id="_0Vw1YIDOEemej5cRfBVkbA" xsi:type="uml:State">
+            <doActivity name="myOnEventFunctionCall" visibility="private"
+              xmi:id="_0Vw1Y4DOEemej5cRfBVkbA" xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1ZIDOEemej5cRfBVkbA">
+                <details key="uuid" value="_GbsKYGKaEDehzoehnNteew"
+                  xmi:id="_0Vw1ZYDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </doActivity>
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1YYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_pnm4IF7BEDequv5sn-MDkA" xmi:id="_0Vw1YoDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <entry name="myEntryFunctionCall" visibility="protected"
+              xmi:id="_0Vw1ZoDOEemej5cRfBVkbA" xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1Z4DOEemej5cRfBVkbA">
+                <details key="uuid" value="_cuxwMF-gEDeVsLvR-7R4GQ"
+                  xmi:id="_0Vw1aIDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </entry>
+            <exit name="myExitFunctionCall" visibility="package" xmi:id="_0Vw1aYDOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1aoDOEemej5cRfBVkbA">
+                <details key="uuid" value="_Vk92oWKaEDehzoehnNteew"
+                  xmi:id="_0Vw1a4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </exit>
+          </subvertex>
+          <subvertex name="myState2" visibility="package" xmi:id="_0Vw1bIDOEemej5cRfBVkbA"
+            xsi:type="uml:State">
+            <doActivity name="myOnEventFunctionCall2" xmi:id="_0Vw1b4DOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1cIDOEemej5cRfBVkbA">
+                <details key="uuid" value="_9k1pAWKaEDehzoehnNteew"
+                  xmi:id="_0Vw1cYDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </doActivity>
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1bYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_qDHIYF7BEDequv5sn-MDkA" xmi:id="_0Vw1boDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <entry name="myEntryFunctionCall2" xmi:id="_0Vw1coDOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1c4DOEemej5cRfBVkbA">
+                <details key="uuid" value="_9ajroWKaEDehzoehnNteew"
+                  xmi:id="_0Vw1dIDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </entry>
+            <exit name="myExitFunctionCall2" xmi:id="_0Vw1dYDOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1doDOEemej5cRfBVkbA">
+                <details key="uuid" value="_9BhgkGKaEDehzoehnNteew"
+                  xmi:id="_0Vw1d4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </exit>
+          </subvertex>
+          <subvertex name="myState3A" xmi:id="_0Vw1eIDOEemej5cRfBVkbA" xsi:type="uml:State">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1eYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_rHWMkV7BEDequv5sn-MDkA" xmi:id="_0Vw1eoDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex name="myState3B" xmi:id="_0Vw1e4DOEemej5cRfBVkbA" xsi:type="uml:State">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1fIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_rWFzMV7BEDequv5sn-MDkA" xmi:id="_0Vw1fYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex name="myState4" xmi:id="_0Vw1foDOEemej5cRfBVkbA" xsi:type="uml:State">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1f4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_r0XDkV7BEDequv5sn-MDkA" xmi:id="_0Vw1gIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex kind="fork" name="myFork" xmi:id="_0Vw1gYDOEemej5cRfBVkbA"
+            xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1goDOEemej5cRfBVkbA">
+              <details key="uuid" value="_xKKDkV7BEDequv5sn-MDkA" xmi:id="_0Vw1g4DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex kind="join" name="myJoin" xmi:id="_0Vw1hIDOEemej5cRfBVkbA"
+            xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1hYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_zs338V7BEDequv5sn-MDkA" xmi:id="_0Vw1hoDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex kind="choice" name="myChoice" xmi:id="_0Vw1h4DOEemej5cRfBVkbA"
+            xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1iIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_2uX6EF7BEDequv5sn-MDkA" xmi:id="_0Vw1iYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <subvertex name="myUberFinalState" xmi:id="_0Vw1ioDOEemej5cRfBVkbA"
+            xsi:type="uml:FinalState">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1i4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_3PEMUF7BEDequv5sn-MDkA" xmi:id="_0Vw1jIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <entry name="myEntryFunctionCall3" xmi:id="_0Vw1jYDOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1joDOEemej5cRfBVkbA">
+                <details key="uuid" value="_ejTXEGL8EDeOmvcb-nnOYw"
+                  xmi:id="_0Vw1j4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </entry>
+          </subvertex>
+          <subvertex kind="exitPoint" name="myExitPoint" xmi:id="_0Vw1kIDOEemej5cRfBVkbA"
+            xsi:type="uml:Pseudostate">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1kYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_5COzEF7BEDequv5sn-MDkA" xmi:id="_0Vw1koDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </subvertex>
+          <transition guard="_0Vw0zYDOEemej5cRfBVkbA" name="" source="_0Vw1V4DOEemej5cRfBVkbA"
+            target="_0Vw1XYDOEemej5cRfBVkbA" xmi:id="_0Vw0yoDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0y4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_tZcLAV7BEDequv5sn-MDkA" xmi:id="_0Vw0zIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw0zYDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw0zoDOEemej5cRfBVkbA">
+                <details key="uuid" value="_tZcLAF7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw0z4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw00IDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw00YDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_tZbj8V7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw00oDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw01oDOEemej5cRfBVkbA" name="" source="_0Vw1WoDOEemej5cRfBVkbA"
+            target="_0Vw1YIDOEemej5cRfBVkbA" xmi:id="_0Vw004DOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw01IDOEemej5cRfBVkbA">
+              <details key="uuid" value="_twWPIF7BEDequv5sn-MDkA" xmi:id="_0Vw01YDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw01oDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw014DOEemej5cRfBVkbA">
+                <details key="uuid" value="_twVoEl7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw02IDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw02YDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw02oDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_twVoEV7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw024DOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw034DOEemej5cRfBVkbA" name="" source="_0Vw1XYDOEemej5cRfBVkbA"
+            target="_0Vw1YIDOEemej5cRfBVkbA" xmi:id="_0Vw03IDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw03YDOEemej5cRfBVkbA">
+              <details key="uuid" value="_t--hAV7BEDequv5sn-MDkA" xmi:id="_0Vw03oDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw034DOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw04IDOEemej5cRfBVkbA">
+                <details key="uuid" value="_t--hAF7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw04YDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw04oDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw044DOEemej5cRfBVkbA">
+                  <details key="uuid" value="_t-958V7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw05IDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw06IDOEemej5cRfBVkbA" name="" source="_0Vw1YIDOEemej5cRfBVkbA"
+            target="_0Vw1bIDOEemej5cRfBVkbA" xmi:id="_0Vw05YDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw05oDOEemej5cRfBVkbA">
+              <details key="uuid" value="_wGqmQF7BEDequv5sn-MDkA" xmi:id="_0Vw054DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <effect name="myEffectFunctionCall" xmi:id="_0Vw07oDOEemej5cRfBVkbA"
+              xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw074DOEemej5cRfBVkbA">
+                <details key="uuid" value="_er_skWKaEDehzoehnNteew"
+                  xmi:id="_0Vw08IDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </effect>
+            <ownedRule xmi:id="_0Vw06IDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw06YDOEemej5cRfBVkbA">
+                <details key="uuid" value="_wGp_Ml7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw06oDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="myGuard1" xmi:id="_0Vw064DOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw07IDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_wGp_MV7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw07YDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw09IDOEemej5cRfBVkbA" name="myRecursiveTransition"
+            source="_0Vw1bIDOEemej5cRfBVkbA" target="_0Vw1bIDOEemej5cRfBVkbA"
+            xmi:id="_0Vw08YDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw08oDOEemej5cRfBVkbA">
+              <details key="uuid" value="_wmxpsl7BEDequv5sn-MDkA" xmi:id="_0Vw084DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw09IDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw09YDOEemej5cRfBVkbA">
+                <details key="uuid" value="_wmxpsV7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw09oDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="wait" xmi:id="_0Vw094DOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw0-IDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_wmxpsF7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw0-YDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw0_YDOEemej5cRfBVkbA" name="" source="_0Vw1bIDOEemej5cRfBVkbA"
+            target="_0Vw1gYDOEemej5cRfBVkbA" xmi:id="_0Vw0-oDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0-4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_xpwwtF7BEDequv5sn-MDkA" xmi:id="_0Vw0_IDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw0_YDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw0_oDOEemej5cRfBVkbA">
+                <details key="uuid" value="_xpwws17BEDequv5sn-MDkA"
+                  xmi:id="_0Vw0_4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1AIDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1AYDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_xpwwsl7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1AoDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1BoDOEemej5cRfBVkbA" name="" source="_0Vw1gYDOEemej5cRfBVkbA"
+            target="_0Vw1eIDOEemej5cRfBVkbA" xmi:id="_0Vw1A4DOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1BIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_y0JgNF7BEDequv5sn-MDkA" xmi:id="_0Vw1BYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1BoDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1B4DOEemej5cRfBVkbA">
+                <details key="uuid" value="_y0JgM17BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1CIDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1CYDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1CoDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_y0JgMl7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1C4DOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1D4DOEemej5cRfBVkbA" name="" source="_0Vw1gYDOEemej5cRfBVkbA"
+            target="_0Vw1e4DOEemej5cRfBVkbA" xmi:id="_0Vw1DIDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1DYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_zHw_wF7BEDequv5sn-MDkA" xmi:id="_0Vw1DoDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1D4DOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1EIDOEemej5cRfBVkbA">
+                <details key="uuid" value="_zHwYs17BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1EYDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1EoDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1E4DOEemej5cRfBVkbA">
+                  <details key="uuid" value="_zHwYsl7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1FIDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1GIDOEemej5cRfBVkbA" name="" source="_0Vw1eIDOEemej5cRfBVkbA"
+            target="_0Vw1hIDOEemej5cRfBVkbA" xmi:id="_0Vw1FYDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1FoDOEemej5cRfBVkbA">
+              <details key="uuid" value="_0RQ-cl7BEDequv5sn-MDkA" xmi:id="_0Vw1F4DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1GIDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1GYDOEemej5cRfBVkbA">
+                <details key="uuid" value="_0RQ-cV7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1GoDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1G4DOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1HIDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_0RQ-cF7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1HYDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1IYDOEemej5cRfBVkbA" name="" source="_0Vw1e4DOEemej5cRfBVkbA"
+            target="_0Vw1hIDOEemej5cRfBVkbA" xmi:id="_0Vw1HoDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1H4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_0wqQM17BEDequv5sn-MDkA" xmi:id="_0Vw1IIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1IYDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1IoDOEemej5cRfBVkbA">
+                <details key="uuid" value="_0wqQMl7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1I4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1JIDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1JYDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_0wqQMV7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1JoDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1KoDOEemej5cRfBVkbA" name="" source="_0Vw1hIDOEemej5cRfBVkbA"
+            target="_0Vw1foDOEemej5cRfBVkbA" xmi:id="_0Vw1J4DOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1KIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_1lQ8817BEDequv5sn-MDkA" xmi:id="_0Vw1KYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <effect name="myEffectFunctionCall2" visibility="protected"
+              xmi:id="_0Vw1MIDOEemej5cRfBVkbA" xsi:type="uml:Activity">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1MYDOEemej5cRfBVkbA">
+                <details key="uuid" value="_ZfrjQGKbEDehzoehnNteew"
+                  xmi:id="_0Vw1MoDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+            </effect>
+            <ownedRule xmi:id="_0Vw1KoDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1K4DOEemej5cRfBVkbA">
+                <details key="uuid" value="_1lQ88l7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1LIDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="myGuard2" xmi:id="_0Vw1LYDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1LoDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_1lQ88V7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1L4DOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1NoDOEemej5cRfBVkbA" name="" source="_0Vw1foDOEemej5cRfBVkbA"
+            target="_0Vw1h4DOEemej5cRfBVkbA" xmi:id="_0Vw1M4DOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1NIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_3x82817BEDequv5sn-MDkA" xmi:id="_0Vw1NYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1NoDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1N4DOEemej5cRfBVkbA">
+                <details key="uuid" value="_3x828l7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1OIDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1OYDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1OoDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_3x828V7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1O4DOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1P4DOEemej5cRfBVkbA" name="" source="_0Vw1h4DOEemej5cRfBVkbA"
+            target="_0Vw1ioDOEemej5cRfBVkbA" xmi:id="_0Vw1PIDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1PYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_4KvKYF7BEDequv5sn-MDkA" xmi:id="_0Vw1PoDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1P4DOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1QIDOEemej5cRfBVkbA">
+                <details key="uuid" value="_4KujU17BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1QYDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="ok" xmi:id="_0Vw1QoDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1Q4DOEemej5cRfBVkbA">
+                  <details key="uuid" value="_4KujUl7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1RIDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1SIDOEemej5cRfBVkbA" name="" source="_0Vw1h4DOEemej5cRfBVkbA"
+            target="_0Vw1kIDOEemej5cRfBVkbA" xmi:id="_0Vw1RYDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1RoDOEemej5cRfBVkbA">
+              <details key="uuid" value="_50eIU17BEDequv5sn-MDkA" xmi:id="_0Vw1R4DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1SIDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1SYDOEemej5cRfBVkbA">
+                <details key="uuid" value="_50eIUl7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1SoDOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="not ok" xmi:id="_0Vw1S4DOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1TIDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_50eIUV7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1TYDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition guard="_0Vw1UYDOEemej5cRfBVkbA" name="" source="_0Vw1kIDOEemej5cRfBVkbA"
+            target="_0Vw1k4DOEemej5cRfBVkbA" xmi:id="_0Vw1ToDOEemej5cRfBVkbA">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw1T4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_60zj817BEDequv5sn-MDkA" xmi:id="_0Vw1UIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+            <ownedRule xmi:id="_0Vw1UYDOEemej5cRfBVkbA">
+              <eAnnotations source="genmymodel" xmi:id="_0Vw1UoDOEemej5cRfBVkbA">
+                <details key="uuid" value="_60zj8l7BEDequv5sn-MDkA"
+                  xmi:id="_0Vw1U4DOEemej5cRfBVkbA"/>
+              </eAnnotations>
+              <specification value="true" xmi:id="_0Vw1VIDOEemej5cRfBVkbA"
+                xsi:type="uml:LiteralString">
+                <eAnnotations source="genmymodel" xmi:id="_0Vw1VYDOEemej5cRfBVkbA">
+                  <details key="uuid" value="_60zj8V7BEDequv5sn-MDkA"
+                    xmi:id="_0Vw1VoDOEemej5cRfBVkbA"/>
+                </eAnnotations>
+              </specification>
+            </ownedRule>
+          </transition>
+        </region>
+      </subvertex>
+      <subvertex name="myErrorState" xmi:id="_0Vw1k4DOEemej5cRfBVkbA" xsi:type="uml:State">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw1lIDOEemej5cRfBVkbA">
+          <details key="uuid" value="_6X3wUF7BEDequv5sn-MDkA" xmi:id="_0Vw1lYDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex kind="terminate" name="myTerminate" xmi:id="_0Vw1loDOEemej5cRfBVkbA"
+        xsi:type="uml:Pseudostate">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw1l4DOEemej5cRfBVkbA">
+          <details key="uuid" value="_7hPMIV7BEDequv5sn-MDkA" xmi:id="_0Vw1mIDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex name="myLastState" xmi:id="_0Vw1mYDOEemej5cRfBVkbA" xsi:type="uml:State">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw1moDOEemej5cRfBVkbA">
+          <details key="uuid" value="_86GcgV7BEDequv5sn-MDkA" xmi:id="_0Vw1m4DOEemej5cRfBVkbA"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex name="myFinalState" xmi:id="_0Vw1nIDOEemej5cRfBVkbA" xsi:type="uml:FinalState">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw1nYDOEemej5cRfBVkbA">
+          <details key="uuid" value="_9UpqgV7BEDequv5sn-MDkA" xmi:id="_0Vw1noDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+      </subvertex>
+      <transition guard="_0Vw0oIDOEemej5cRfBVkbA" name="myNamedTransition"
+        source="_0Vw0wYDOEemej5cRfBVkbA" target="_0Vw0xIDOEemej5cRfBVkbA"
+        xmi:id="_0Vw0nYDOEemej5cRfBVkbA">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0noDOEemej5cRfBVkbA">
+          <details key="uuid" value="_spi_Il7BEDequv5sn-MDkA" xmi:id="_0Vw0n4DOEemej5cRfBVkbA"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_0Vw0oIDOEemej5cRfBVkbA">
+          <eAnnotations source="genmymodel" xmi:id="_0Vw0oYDOEemej5cRfBVkbA">
+            <details key="uuid" value="_spi_IV7BEDequv5sn-MDkA" xmi:id="_0Vw0ooDOEemej5cRfBVkbA"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_0Vw0o4DOEemej5cRfBVkbA" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0pIDOEemej5cRfBVkbA">
+              <details key="uuid" value="_spi_IF7BEDequv5sn-MDkA" xmi:id="_0Vw0pYDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_0Vw0qYDOEemej5cRfBVkbA" name="" source="_0Vw1k4DOEemej5cRfBVkbA"
+        target="_0Vw1loDOEemej5cRfBVkbA" xmi:id="_0Vw0poDOEemej5cRfBVkbA">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0p4DOEemej5cRfBVkbA">
+          <details key="uuid" value="_76q_017BEDequv5sn-MDkA" xmi:id="_0Vw0qIDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_0Vw0qYDOEemej5cRfBVkbA">
+          <eAnnotations source="genmymodel" xmi:id="_0Vw0qoDOEemej5cRfBVkbA">
+            <details key="uuid" value="_76q_0l7BEDequv5sn-MDkA" xmi:id="_0Vw0q4DOEemej5cRfBVkbA"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_0Vw0rIDOEemej5cRfBVkbA" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0rYDOEemej5cRfBVkbA">
+              <details key="uuid" value="_76q_0V7BEDequv5sn-MDkA" xmi:id="_0Vw0roDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_0Vw0soDOEemej5cRfBVkbA" name="" source="_0Vw0xIDOEemej5cRfBVkbA"
+        target="_0Vw1mYDOEemej5cRfBVkbA" xmi:id="_0Vw0r4DOEemej5cRfBVkbA">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0sIDOEemej5cRfBVkbA">
+          <details key="uuid" value="_94Xbk17BEDequv5sn-MDkA" xmi:id="_0Vw0sYDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_0Vw0soDOEemej5cRfBVkbA">
+          <eAnnotations source="genmymodel" xmi:id="_0Vw0s4DOEemej5cRfBVkbA">
+            <details key="uuid" value="_94Xbkl7BEDequv5sn-MDkA" xmi:id="_0Vw0tIDOEemej5cRfBVkbA"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_0Vw0tYDOEemej5cRfBVkbA" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0toDOEemej5cRfBVkbA">
+              <details key="uuid" value="_94XbkV7BEDequv5sn-MDkA" xmi:id="_0Vw0t4DOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_0Vw0u4DOEemej5cRfBVkbA" name="" source="_0Vw1mYDOEemej5cRfBVkbA"
+        target="_0Vw1nIDOEemej5cRfBVkbA" xmi:id="_0Vw0uIDOEemej5cRfBVkbA">
+        <eAnnotations source="genmymodel" xmi:id="_0Vw0uYDOEemej5cRfBVkbA">
+          <details key="uuid" value="_-SjdM17BEDequv5sn-MDkA" xmi:id="_0Vw0uoDOEemej5cRfBVkbA"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_0Vw0u4DOEemej5cRfBVkbA">
+          <eAnnotations source="genmymodel" xmi:id="_0Vw0vIDOEemej5cRfBVkbA">
+            <details key="uuid" value="_-SjdMl7BEDequv5sn-MDkA" xmi:id="_0Vw0vYDOEemej5cRfBVkbA"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_0Vw0voDOEemej5cRfBVkbA" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_0Vw0v4DOEemej5cRfBVkbA">
+              <details key="uuid" value="_-SjdMV7BEDequv5sn-MDkA" xmi:id="_0Vw0wIDOEemej5cRfBVkbA"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+    </region>
+  </packagedElement>
+</uml:Model>

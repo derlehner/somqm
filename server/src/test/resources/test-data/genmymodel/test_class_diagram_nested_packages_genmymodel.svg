@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg font-family='Arial, LiberationSans' font-size='13'
+  height='470.0px' version='1.1'
+  viewBox='50 50 740 470' width='740.0px' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <linearGradient id='a8eb4d97-882b-4ea2-abaa-3bc211833e01' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='4329cfa1-1b3d-423f-9447-a3cb92cc47d1' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(238, 238, 238)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='dba1b334-4b73-415e-80c1-62d572371b6d' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='6b08a936-2697-4336-a33c-6f2602b8c649' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='620ab2bd-5d9d-41e8-9b53-e04931c0deb5' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(238, 238, 238)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='99e02b66-374d-4514-86df-b9da52e8bac5' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(238, 238, 238)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='94cc1e2c-7fd0-46a4-bd9e-ecb93b6fbbb0' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='590bdc56-874e-493a-aa0c-d63c2cbef5a4' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(238, 238, 238)' stop-opacity='1'/>
+    </linearGradient>
+    <style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>
+  </defs>
+  <desc>ClassDiagram</desc>
+  <g id='_XCFW8GkTEDeUg7xXuCcZUw' transform='translate(80.0,80.0)'>
+    <rect fill='url(#a8eb4d97-882b-4ea2-abaa-3bc211833e01)' height='27.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='116.0px' x='0.0'
+      y='0.0'/>
+    <rect fill='url(#a8eb4d97-882b-4ea2-abaa-3bc211833e01)' height='386.0px' look='allInOne' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='680.0px' x='0.0'
+      y='24.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' font-weight='bold' text-anchor='middle' x='58.0'
+      y='18.0'>myUberPackage
+    </text>
+  </g>
+  <g id='_ifDwkGkTEDeUg7xXuCcZUw' transform='translate(96.0,382.0)'>
+    <line look='border' stroke='rgb(187, 187, 187)' stroke-width='1.0' x1='0.0' x2='95.0' y1='26.0'
+      y2='26.0'/>
+    <rect fill='url(#4329cfa1-1b3d-423f-9447-a3cb92cc47d1)' height='80.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(187, 187, 187)'
+      stroke-width='1.0' width='95.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(3, 54, 86)' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle'
+      x='47.5' y='19.0'>myUberClass
+    </text>
+  </g>
+  <g id='_YY9DQWkTEDeUg7xXuCcZUw' transform='translate(96.0,118.0)'>
+    <rect fill='url(#dba1b334-4b73-415e-80c1-62d572371b6d)' height='27.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='118.0px' x='0.0'
+      y='0.0'/>
+    <rect fill='url(#dba1b334-4b73-415e-80c1-62d572371b6d)' height='206.0px' look='allInOne' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='410.0px' x='0.0'
+      y='24.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' font-weight='bold' text-anchor='middle' x='59.0'
+      y='18.0'>mySubPackage1
+    </text>
+  </g>
+  <g id='_e2ypYWkTEDeUg7xXuCcZUw' transform='translate(541.0,118.0)'>
+    <rect fill='url(#6b08a936-2697-4336-a33c-6f2602b8c649)' height='27.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='118.0px' x='0.0'
+      y='0.0'/>
+    <rect fill='url(#6b08a936-2697-4336-a33c-6f2602b8c649)' height='136.0px' look='allInOne' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='190.0px' x='0.0'
+      y='24.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' font-weight='bold' text-anchor='middle' x='59.0'
+      y='18.0'>mySubPackage2
+    </text>
+  </g>
+  <g id='_duDfsGkTEDeUg7xXuCcZUw' transform='translate(343.0,193.0)'>
+    <line look='border' stroke='rgb(187, 187, 187)' stroke-width='1.0' x1='0.0' x2='150.0' y1='26.0'
+      y2='26.0'/>
+    <rect fill='url(#620ab2bd-5d9d-41e8-9b53-e04931c0deb5)' height='80.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(187, 187, 187)'
+      stroke-width='1.0' width='150.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(3, 54, 86)' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle'
+      x='75.0' y='19.0'>mySubPackage1Class
+    </text>
+  </g>
+  <g id='_f54eEmkTEDeUg7xXuCcZUw' transform='translate(571.0,168.0)'>
+    <line look='border' stroke='rgb(187, 187, 187)' stroke-width='1.0' x1='0.0' x2='150.0' y1='26.0'
+      y2='26.0'/>
+    <rect fill='url(#99e02b66-374d-4514-86df-b9da52e8bac5)' height='80.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(187, 187, 187)'
+      stroke-width='1.0' width='150.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(3, 54, 86)' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle'
+      x='75.0' y='19.0'>mySubPackage2Class
+    </text>
+  </g>
+  <g id='_Zah1AGkTEDeUg7xXuCcZUw' transform='translate(113.0,154.0)'>
+    <rect fill='url(#94cc1e2c-7fd0-46a4-bd9e-ecb93b6fbbb0)' height='27.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='141.0px' x='0.0'
+      y='0.0'/>
+    <rect fill='url(#94cc1e2c-7fd0-46a4-bd9e-ecb93b6fbbb0)' height='146.0px' look='allInOne' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='202.0px' x='0.0'
+      y='24.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' font-weight='bold' text-anchor='middle' x='70.5'
+      y='18.0'>mySubSubPackage1
+    </text>
+  </g>
+  <g id='_bBwRgWkTEDeUg7xXuCcZUw' transform='translate(130.0,199.0)'>
+    <line look='border' stroke='rgb(187, 187, 187)' stroke-width='1.0' x1='0.0' x2='175.0' y1='26.0'
+      y2='26.0'/>
+    <rect fill='url(#590bdc56-874e-493a-aa0c-d63c2cbef5a4)' height='80.0px' look='allInOne' rx='3.0' ry='3.0' stroke='rgb(187, 187, 187)'
+      stroke-width='1.0' width='175.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(3, 54, 86)' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle'
+      x='87.5' y='19.0'>mySubSubPackage1Class
+    </text>
+  </g>
+</svg>

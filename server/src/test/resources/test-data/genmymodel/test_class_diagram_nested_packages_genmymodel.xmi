@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:xmi="http://www.omg.org/XMI"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  name="model" xmi:id="_yaLnQIblEem_J6-gc3qGnQ" xmi:version="2.0">
+  <eAnnotations source="genmymodel" xmi:id="_yaLnQYblEem_J6-gc3qGnQ">
+    <details key="uuid" value="_WWAK0IblEem_J6-gc3qGnQ" xmi:id="_yaLnQoblEem_J6-gc3qGnQ"/>
+    <details key="author" value="0xCAF3BAB3" xmi:id="_yaLnQ4blEem_J6-gc3qGnQ"/>
+  </eAnnotations>
+  <packageImport xmi:id="_yaLnRIblEem_J6-gc3qGnQ">
+    <eAnnotations source="genmymodel" xmi:id="_yaLnRYblEem_J6-gc3qGnQ">
+      <details key="uuid" value="_WWAK0YblEem_J6-gc3qGnQ" xmi:id="_yaLnRoblEem_J6-gc3qGnQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement name="myUberPackage" xmi:id="_yaLnR4blEem_J6-gc3qGnQ" xsi:type="uml:Package">
+    <eAnnotations source="genmymodel" xmi:id="_yaLnSIblEem_J6-gc3qGnQ">
+      <details key="uuid" value="_XCC6sGkTEDeUg7xXuCcZUw" xmi:id="_yaLnSYblEem_J6-gc3qGnQ"/>
+    </eAnnotations>
+    <packagedElement name="mySubPackage1" xmi:id="_yaLnSoblEem_J6-gc3qGnQ" xsi:type="uml:Package">
+      <eAnnotations source="genmymodel" xmi:id="_yaLnS4blEem_J6-gc3qGnQ">
+        <details key="uuid" value="_YY8cMWkTEDeUg7xXuCcZUw" xmi:id="_yaLnTIblEem_J6-gc3qGnQ"/>
+      </eAnnotations>
+      <packagedElement name="mySubSubPackage1" xmi:id="_yaLnTYblEem_J6-gc3qGnQ"
+        xsi:type="uml:Package">
+        <eAnnotations source="genmymodel" xmi:id="_yaLnToblEem_J6-gc3qGnQ">
+          <details key="uuid" value="_ZahN8WkTEDeUg7xXuCcZUw" xmi:id="_yaLnT4blEem_J6-gc3qGnQ"/>
+        </eAnnotations>
+        <packagedElement name="mySubSubPackage1Class" xmi:id="_yaLnUIblEem_J6-gc3qGnQ"
+          xsi:type="uml:Class">
+          <eAnnotations source="genmymodel" xmi:id="_yaLnUYblEem_J6-gc3qGnQ">
+            <details key="uuid" value="_bBvqcGkTEDeUg7xXuCcZUw" xmi:id="_yaLnUoblEem_J6-gc3qGnQ"/>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement name="mySubPackage1Class" xmi:id="_yaLnU4blEem_J6-gc3qGnQ"
+        xsi:type="uml:Class">
+        <eAnnotations source="genmymodel" xmi:id="_yaLnVIblEem_J6-gc3qGnQ">
+          <details key="uuid" value="_duCRkWkTEDeUg7xXuCcZUw" xmi:id="_yaLnVYblEem_J6-gc3qGnQ"/>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="mySubPackage2" xmi:id="_yaLnVoblEem_J6-gc3qGnQ" xsi:type="uml:Package">
+      <eAnnotations source="genmymodel" xmi:id="_yaLnV4blEem_J6-gc3qGnQ">
+        <details key="uuid" value="_e2yCUWkTEDeUg7xXuCcZUw" xmi:id="_yaLnWIblEem_J6-gc3qGnQ"/>
+      </eAnnotations>
+      <packagedElement name="mySubPackage2Class" xmi:id="_yaLnWYblEem_J6-gc3qGnQ"
+        xsi:type="uml:Class">
+        <eAnnotations source="genmymodel" xmi:id="_yaLnWoblEem_J6-gc3qGnQ">
+          <details key="uuid" value="_f54eEGkTEDeUg7xXuCcZUw" xmi:id="_yaLnW4blEem_J6-gc3qGnQ"/>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="myUberClass" xmi:id="_yaLnXIblEem_J6-gc3qGnQ" xsi:type="uml:Class">
+      <eAnnotations source="genmymodel" xmi:id="_yaLnXYblEem_J6-gc3qGnQ">
+        <details key="uuid" value="_ifCicWkTEDeUg7xXuCcZUw" xmi:id="_yaLnXoblEem_J6-gc3qGnQ"/>
+      </eAnnotations>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

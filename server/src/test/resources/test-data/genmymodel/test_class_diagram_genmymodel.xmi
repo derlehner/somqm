@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:xmi="http://www.omg.org/XMI"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  name="model" xmi:id="_DG12MH-xEemjx_6-EV_iyQ" xmi:version="2.0">
+  <eAnnotations source="genmymodel" xmi:id="_DG12MX-xEemjx_6-EV_iyQ">
+    <details key="uuid" value="__4LuEHc6EemaZ70j6DJxGQ" xmi:id="_DG12Mn-xEemjx_6-EV_iyQ"/>
+    <details key="author" value="derlehner" xmi:id="_DG12M3-xEemjx_6-EV_iyQ"/>
+  </eAnnotations>
+  <packageImport xmi:id="_DG12NH-xEemjx_6-EV_iyQ">
+    <eAnnotations source="genmymodel" xmi:id="_DG12NX-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="__4LuEXc6EemaZ70j6DJxGQ" xmi:id="_DG12Nn-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement name="RelatedClass" visibility="private" xmi:id="_DG12N3-xEemjx_6-EV_iyQ"
+    xsi:type="uml:Class">
+    <eAnnotations source="genmymodel" xmi:id="_DG12OH-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_LwqdAVlwEDeMJofq35SrYw" xmi:id="_DG12OX-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <ownedAttribute isStatic="true" name="privateStaticAttribute"
+      visibility="private" xmi:id="_DG12On-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12O3-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwqdAllwEDeMJofq35SrYw" xmi:id="_DG12PH-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute name="packageFinalAttribute" visibility="package"
+      xmi:id="_DG12PX-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12Pn-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwqdA1lwEDeMJofq35SrYw" xmi:id="_DG12P3-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute name="protectedStaticAbstractAttribute" visibility="protected"
+      xmi:id="_DG12QH-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12QX-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwqdBFlwEDeMJofq35SrYw" xmi:id="_DG12Qn-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedOperation name="privateStaticMethod" xmi:id="_DG12Q3-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12RH-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwrEEFlwEDeMJofq35SrYw" xmi:id="_DG12RX-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </ownedOperation>
+    <ownedOperation name="packageFinalParameterMethod" xmi:id="_DG12Rn-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12R3-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwrEEVlwEDeMJofq35SrYw" xmi:id="_DG12SH-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <ownedParameter name="firstParam" type="_DG12VX-xEemjx_6-EV_iyQ"
+        xmi:id="_DG12SX-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12Sn-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwrEEllwEDeMJofq35SrYw" xmi:id="_DG12S3-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter name="secondParam" xmi:id="_DG12TH-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12TX-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwrEE1lwEDeMJofq35SrYw" xmi:id="_DG12Tn-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation name="protectedStaticFinalReturnTypeMethod" xmi:id="_DG12T3-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12UH-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwrrIFlwEDeMJofq35SrYw" xmi:id="_DG12UX-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <ownedParameter direction="return" isUnique="false"
+        name="returnParameter" type="_DG12WH-xEemjx_6-EV_iyQ" xmi:id="_DG12Un-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12U3-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwrrIVlwEDeMJofq35SrYw" xmi:id="_DG12VH-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement name="Interface" xmi:id="_DG12VX-xEemjx_6-EV_iyQ" xsi:type="uml:Interface">
+    <eAnnotations source="genmymodel" xmi:id="_DG12Vn-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_LwrrIllwEDeMJofq35SrYw" xmi:id="_DG12V3-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement name="SubClass" visibility="protected" xmi:id="_DG12WH-xEemjx_6-EV_iyQ"
+    xsi:type="uml:Class">
+    <eAnnotations source="genmymodel" xmi:id="_DG12WX-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_LwrrI1lwEDeMJofq35SrYw" xmi:id="_DG12Wn-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <generalization general="_DG12oX-xEemjx_6-EV_iyQ" xmi:id="_DG12W3-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12XH-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwsSMFlwEDeMJofq35SrYw" xmi:id="_DG12XX-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </generalization>
+    <interfaceRealization client="_DG12WH-xEemjx_6-EV_iyQ" contract="_DG12VX-xEemjx_6-EV_iyQ"
+      supplier="_DG12VX-xEemjx_6-EV_iyQ" xmi:id="_DG12Xn-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12X3-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwsSMVlwEDeMJofq35SrYw" xmi:id="_DG12YH-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+    </interfaceRealization>
+  </packagedElement>
+  <packagedElement memberEnd="_DG12bX-xEemjx_6-EV_iyQ _DG12ZH-xEemjx_6-EV_iyQ" name="TwoDirectionalAssociation"
+    navigableOwnedEnd="_DG12bX-xEemjx_6-EV_iyQ _DG12ZH-xEemjx_6-EV_iyQ" xmi:id="_DG12YX-xEemjx_6-EV_iyQ"
+    xsi:type="uml:Association">
+    <eAnnotations source="genmymodel" xmi:id="_DG12Yn-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_Lws5QFlwEDeMJofq35SrYw" xmi:id="_DG12Y3-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <ownedEnd association="_DG12YX-xEemjx_6-EV_iyQ" name="relatedClass2" type="_DG12N3-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12ZH-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12ZX-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_Lws5QVlwEDeMJofq35SrYw" xmi:id="_DG12Zn-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue value="1" xmi:id="_DG12Z3-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12aH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_Lws5QllwEDeMJofq35SrYw" xmi:id="_DG12aX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="1" xmi:id="_DG12an-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12a3-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwtgUFlwEDeMJofq35SrYw" xmi:id="_DG12bH-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd association="_DG12YX-xEemjx_6-EV_iyQ" name="abstractClass" type="_DG12oX-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12bX-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12bn-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwtgUVlwEDeMJofq35SrYw" xmi:id="_DG12b3-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue xmi:id="_DG12cH-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12cX-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwtgUllwEDeMJofq35SrYw" xmi:id="_DG12cn-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="1" xmi:id="_DG12c3-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12dH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwtgU1lwEDeMJofq35SrYw" xmi:id="_DG12dX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="_DG12gH-xEemjx_6-EV_iyQ _DG12eX-xEemjx_6-EV_iyQ" name="OneDirectionalAssociation"
+    navigableOwnedEnd="_DG12eX-xEemjx_6-EV_iyQ" xmi:id="_DG12dn-xEemjx_6-EV_iyQ"
+    xsi:type="uml:Association">
+    <eAnnotations source="genmymodel" xmi:id="_DG12d3-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_LwtgVFlwEDeMJofq35SrYw" xmi:id="_DG12eH-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <ownedEnd association="_DG12dn-xEemjx_6-EV_iyQ" name="subClass" type="_DG12WH-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12eX-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12en-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwtgVVlwEDeMJofq35SrYw" xmi:id="_DG12e3-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue value="1" xmi:id="_DG12fH-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12fX-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwtgVllwEDeMJofq35SrYw" xmi:id="_DG12fn-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="3" xmi:id="_DG12f3-xEemjx_6-EV_iyQ"
+        xsi:type="uml:LiteralUnlimitedNatural"/>
+    </ownedEnd>
+    <ownedEnd association="_DG12dn-xEemjx_6-EV_iyQ" name="relatedClass" type="_DG12N3-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12gH-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12gX-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwuHYFlwEDeMJofq35SrYw" xmi:id="_DG12gn-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue value="1" xmi:id="_DG12g3-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12hH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwuHYVlwEDeMJofq35SrYw" xmi:id="_DG12hX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="1" xmi:id="_DG12hn-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12h3-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwuHYllwEDeMJofq35SrYw" xmi:id="_DG12iH-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="_DG12lX-xEemjx_6-EV_iyQ _DG12jH-xEemjx_6-EV_iyQ" name="NonDirectionalAssociation"
+    xmi:id="_DG12iX-xEemjx_6-EV_iyQ" xsi:type="uml:Association">
+    <eAnnotations source="genmymodel" xmi:id="_DG12in-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_LwuHY1lwEDeMJofq35SrYw" xmi:id="_DG12i3-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <ownedEnd association="_DG12iX-xEemjx_6-EV_iyQ" name="interface" type="_DG12VX-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12jH-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12jX-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwuHZFlwEDeMJofq35SrYw" xmi:id="_DG12jn-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue xmi:id="_DG12j3-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12kH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwuHZVlwEDeMJofq35SrYw" xmi:id="_DG12kX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="1" xmi:id="_DG12kn-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12k3-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwuucFlwEDeMJofq35SrYw" xmi:id="_DG12lH-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd association="_DG12iX-xEemjx_6-EV_iyQ" name="relatedClass" type="_DG12N3-xEemjx_6-EV_iyQ"
+      xmi:id="_DG12lX-xEemjx_6-EV_iyQ">
+      <eAnnotations source="genmymodel" xmi:id="_DG12ln-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwuucVlwEDeMJofq35SrYw" xmi:id="_DG12l3-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <lowerValue xmi:id="_DG12mH-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12mX-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwuucllwEDeMJofq35SrYw" xmi:id="_DG12mn-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue value="1" xmi:id="_DG12m3-xEemjx_6-EV_iyQ" xsi:type="uml:LiteralInteger">
+        <eAnnotations source="genmymodel" xmi:id="_DG12nH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_Lwuuc1lwEDeMJofq35SrYw" xmi:id="_DG12nX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement name="TestPackage" xmi:id="_DG12nn-xEemjx_6-EV_iyQ" xsi:type="uml:Package">
+    <eAnnotations source="genmymodel" xmi:id="_DG12n3-xEemjx_6-EV_iyQ">
+      <details key="uuid" value="_6a-bgGHeEDe_C-qey9JFpA" xmi:id="_DG12oH-xEemjx_6-EV_iyQ"/>
+    </eAnnotations>
+    <packagedElement isAbstract="true" name="AbstractClass" visibility="package"
+      xmi:id="_DG12oX-xEemjx_6-EV_iyQ" xsi:type="uml:Class">
+      <eAnnotations source="genmymodel" xmi:id="_DG12on-xEemjx_6-EV_iyQ">
+        <details key="uuid" value="_LwpO4FlwEDeMJofq35SrYw" xmi:id="_DG12o3-xEemjx_6-EV_iyQ"/>
+      </eAnnotations>
+      <ownedAttribute name="relatedClass" type="_DG12N3-xEemjx_6-EV_iyQ" visibility="public"
+        xmi:id="_DG12pH-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12pX-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_Lwp18FlwEDeMJofq35SrYw" xmi:id="_DG12pn-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute name="abstractAttribute" visibility="public" xmi:id="_DG12p3-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12qH-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_Lwp18VlwEDeMJofq35SrYw" xmi:id="_DG12qX-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedOperation isAbstract="true" name="abstractOperation" xmi:id="_DG12qn-xEemjx_6-EV_iyQ">
+        <eAnnotations source="genmymodel" xmi:id="_DG12q3-xEemjx_6-EV_iyQ">
+          <details key="uuid" value="_LwqdAFlwEDeMJofq35SrYw" xmi:id="_DG12rH-xEemjx_6-EV_iyQ"/>
+        </eAnnotations>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

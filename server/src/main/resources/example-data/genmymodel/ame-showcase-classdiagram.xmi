@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_sLbYIPZFEemEXt2Xl4w-3Q" name="model">
+  <eAnnotations xmi:id="_sLbYIfZFEemEXt2Xl4w-3Q" source="genmymodel">
+    <details xmi:id="_sLbYIvZFEemEXt2Xl4w-3Q" key="uuid" value="_tv8CQHZpEemaZ70j6DJxGQ"/>
+    <details xmi:id="_sLbYI_ZFEemEXt2Xl4w-3Q" key="author" value="derlehner"/>
+  </eAnnotations>
+  <packageImport xmi:id="_sLbYJPZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLbYJfZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbYJvZFEemEXt2Xl4w-3Q" key="uuid" value="_tv8CQXZpEemaZ70j6DJxGQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Package" xmi:id="_sLbYJ_ZFEemEXt2Xl4w-3Q" name="TrafficObjectService">
+    <eAnnotations xmi:id="_sLbYKPZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbYKfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKga0GAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <packagedElement xsi:type="uml:Interface" xmi:id="_sLbYKvZFEemEXt2Xl4w-3Q" name="TrafficObjectLocatorService">
+      <eAnnotations xmi:id="_sLbYK_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYLPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKhB4GAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbYLfZFEemEXt2Xl4w-3Q" name="checkForTrafficObject">
+        <eAnnotations xmi:id="_sLbYLvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYL_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKhB4WAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYMPZFEemEXt2Xl4w-3Q" name="parameter0" type="_sLbYUfZFEemEXt2Xl4w-3Q" direction="return">
+          <eAnnotations xmi:id="_sLbYMfZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYMvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho8GAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_sLbYM_ZFEemEXt2Xl4w-3Q" name="Impl">
+      <eAnnotations xmi:id="_sLbYNPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYNfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho8WAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLbYNvZFEemEXt2Xl4w-3Q" name="TrafficObjectLocatorServiceImpl">
+        <eAnnotations xmi:id="_sLbYN_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYOPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho8mAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <interfaceRealization xmi:id="_sLbYOfZFEemEXt2Xl4w-3Q" client="_sLbYNvZFEemEXt2Xl4w-3Q" supplier="_sLbYKvZFEemEXt2Xl4w-3Q" contract="_sLbYKvZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYOvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYO_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho82AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_sLbYPPZFEemEXt2Xl4w-3Q" name="TrafficObject">
+      <eAnnotations xmi:id="_sLbYPfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYPvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho9GAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLbYP_ZFEemEXt2Xl4w-3Q" name="TrafficLight">
+        <eAnnotations xmi:id="_sLbYQPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYQfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho9WAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <interfaceRealization xmi:id="_sLbYQvZFEemEXt2Xl4w-3Q" client="_sLbYP_ZFEemEXt2Xl4w-3Q" supplier="_sLbYUfZFEemEXt2Xl4w-3Q" contract="_sLbYUfZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYQ_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYRPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKho9mAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </interfaceRealization>
+        <ownedOperation xmi:id="_sLbYRfZFEemEXt2Xl4w-3Q" name="getCurrentColor" visibility="private">
+          <eAnnotations xmi:id="_sLbYRvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYR_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKiQAGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sLbYSPZFEemEXt2Xl4w-3Q" name="returnParameter" isUnique="false" direction="return">
+            <eAnnotations xmi:id="_sLbYSfZFEemEXt2Xl4w-3Q" source="genmymodel">
+              <details xmi:id="_sLbYSvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKiQAWAfEDeLk9y2VW3j9w"/>
+            </eAnnotations>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sLbYS_ZFEemEXt2Xl4w-3Q" name="calculateDistanceToCar" visibility="private">
+          <eAnnotations xmi:id="_sLbYTPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYTfZFEemEXt2Xl4w-3Q" key="uuid" value="_H19QgHPTEDeDl4iGAFSzww"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sLbYTvZFEemEXt2Xl4w-3Q" name="returnParameter" isUnique="false" direction="return">
+            <eAnnotations xmi:id="_sLbYT_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+              <details xmi:id="_sLbYUPZFEemEXt2Xl4w-3Q" key="uuid" value="_Jt-iEHPTEDeDl4iGAFSzww"/>
+            </eAnnotations>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Interface" xmi:id="_sLbYUfZFEemEXt2Xl4w-3Q" name="TrafficObject">
+        <eAnnotations xmi:id="_sLbYUvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYU_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKiQAmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedOperation xmi:id="_sLbYVPZFEemEXt2Xl4w-3Q" name="handleOccurrence" visibility="public">
+          <eAnnotations xmi:id="_sLbYVfZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYVvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKiQA2AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sLbYV_ZFEemEXt2Xl4w-3Q" name="returnParameter" type="_sLb_0fZFEemEXt2Xl4w-3Q" isUnique="false" direction="return">
+            <eAnnotations xmi:id="_sLbYWPZFEemEXt2Xl4w-3Q" source="genmymodel">
+              <details xmi:id="_sLbYWfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKiQBGAfEDeLk9y2VW3j9w"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLbYWvZFEemEXt2Xl4w-3Q" name="TrafficCar">
+        <eAnnotations xmi:id="_sLbYW_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYXPZFEemEXt2Xl4w-3Q" key="uuid" value="_VyR_QHPEEDeDl4iGAFSzww"/>
+        </eAnnotations>
+        <interfaceRealization xmi:id="_sLbYXfZFEemEXt2Xl4w-3Q" client="_sLbYWvZFEemEXt2Xl4w-3Q" supplier="_sLbYUfZFEemEXt2Xl4w-3Q" contract="_sLbYUfZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYXvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYX_ZFEemEXt2Xl4w-3Q" key="uuid" value="_hosMkHPEEDeDl4iGAFSzww"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLbYYPZFEemEXt2Xl4w-3Q" name="ConnectableCar">
+        <eAnnotations xmi:id="_sLbYYfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYYvZFEemEXt2Xl4w-3Q" key="uuid" value="_jYFGkHPEEDeDl4iGAFSzww"/>
+        </eAnnotations>
+        <generalization xmi:id="_sLbYY_ZFEemEXt2Xl4w-3Q" general="_sLbYWvZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYZPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYZfZFEemEXt2Xl4w-3Q" key="uuid" value="_m7qiEHPEEDeDl4iGAFSzww"/>
+          </eAnnotations>
+        </generalization>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Package" xmi:id="_sLbYZvZFEemEXt2Xl4w-3Q" name="CarComponentService">
+    <eAnnotations xmi:id="_sLbYZ_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbYaPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3EGAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <packagedElement xsi:type="uml:Class" xmi:id="_sLbYafZFEemEXt2Xl4w-3Q" name="Brake">
+      <eAnnotations xmi:id="_sLbYavZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYa_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3EWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbYbPZFEemEXt2Xl4w-3Q" name="brakeToZero">
+        <eAnnotations xmi:id="_sLbYbfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYbvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3EmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYb_ZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+          <eAnnotations xmi:id="_sLbYcPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYcfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3E2AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYcvZFEemEXt2Xl4w-3Q" name="desiredBrakePathInMeters" type="_sLbYfvZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYc_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYdPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3FGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_sLbYdfZFEemEXt2Xl4w-3Q" name="brake">
+        <eAnnotations xmi:id="_sLbYdvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYd_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3FWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYePZFEemEXt2Xl4w-3Q" name="desiredSpeed">
+          <eAnnotations xmi:id="_sLbYefZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYevZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3FmAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYe_ZFEemEXt2Xl4w-3Q" name="parameter1" direction="return">
+          <eAnnotations xmi:id="_sLbYfPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYffZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3F2AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_sLbYfvZFEemEXt2Xl4w-3Q" name="Motor">
+      <eAnnotations xmi:id="_sLbYf_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYgPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3GGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbYgfZFEemEXt2Xl4w-3Q" name="start">
+        <eAnnotations xmi:id="_sLbYgvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYg_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKi3GWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYhPZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+          <eAnnotations xmi:id="_sLbYhfZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYhvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeIGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_sLbYh_ZFEemEXt2Xl4w-3Q" name="stop">
+        <eAnnotations xmi:id="_sLbYiPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYifZFEemEXt2Xl4w-3Q" key="uuid" value="_Tg27YIR8EDeHMbyZAHn6PQ"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYivZFEemEXt2Xl4w-3Q" name="returnParameter" type="_sLb_0fZFEemEXt2Xl4w-3Q" isUnique="false" direction="return">
+          <eAnnotations xmi:id="_sLbYi_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYjPZFEemEXt2Xl4w-3Q" key="uuid" value="_UZxgYIR8EDeHMbyZAHn6PQ"/>
+          </eAnnotations>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_sLbYjfZFEemEXt2Xl4w-3Q" name="Wheel">
+      <eAnnotations xmi:id="_sLbYjvZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYj_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeIWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbYkPZFEemEXt2Xl4w-3Q" name="turnLeft">
+        <eAnnotations xmi:id="_sLbYkfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYkvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeImAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYk_ZFEemEXt2Xl4w-3Q" name="degrees">
+          <eAnnotations xmi:id="_sLbYlPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYlfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeI2AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYlvZFEemEXt2Xl4w-3Q" name="secondsUntilReached">
+          <eAnnotations xmi:id="_sLbYl_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYmPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeJGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYmfZFEemEXt2Xl4w-3Q" name="parameter2" direction="return">
+          <eAnnotations xmi:id="_sLbYmvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYm_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeJWAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_sLbYnPZFEemEXt2Xl4w-3Q" name="turnRight">
+        <eAnnotations xmi:id="_sLbYnfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYnvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeJmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYn_ZFEemEXt2Xl4w-3Q" name="degrees">
+          <eAnnotations xmi:id="_sLbYoPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYofZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeJ2AfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYovZFEemEXt2Xl4w-3Q" name="secondsUntilReached">
+          <eAnnotations xmi:id="_sLbYo_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYpPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeKGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYpfZFEemEXt2Xl4w-3Q" name="parameter2" direction="return">
+          <eAnnotations xmi:id="_sLbYpvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYp_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeKWAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_sLbYqPZFEemEXt2Xl4w-3Q" name="navigateToDestination">
+        <eAnnotations xmi:id="_sLbYqfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYqvZFEemEXt2Xl4w-3Q" key="uuid" value="_oU_oUHPLEDeDl4iGAFSzww"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYq_ZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+          <eAnnotations xmi:id="_sLbYrPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYrfZFEemEXt2Xl4w-3Q" key="uuid" value="_tWRw4HPLEDeDl4iGAFSzww"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYrvZFEemEXt2Xl4w-3Q" name="route" type="_sLb_zvZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYr_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYsPZFEemEXt2Xl4w-3Q" key="uuid" value="_u-Wh8HPLEDeDl4iGAFSzww"/>
+          </eAnnotations>
+          <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLbYsfZFEemEXt2Xl4w-3Q" value="1"/>
+          <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLbYsvZFEemEXt2Xl4w-3Q" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_sLbYs_ZFEemEXt2Xl4w-3Q" name="Accelerator">
+      <eAnnotations xmi:id="_sLbYtPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYtfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeKmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbYtvZFEemEXt2Xl4w-3Q" name="speedUp">
+        <eAnnotations xmi:id="_sLbYt_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYuPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeK2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbYufZFEemEXt2Xl4w-3Q" name="desiredSpeed">
+          <eAnnotations xmi:id="_sLbYuvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYu_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeLGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYvPZFEemEXt2Xl4w-3Q" name="motor" type="_sLbYfvZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLbYvfZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYvvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKjeLWAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </ownedParameter>
+        <ownedParameter xmi:id="_sLbYv_ZFEemEXt2Xl4w-3Q" name="parameter2" direction="return">
+          <eAnnotations xmi:id="_sLbYwPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbYwfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFMGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_sLbYwvZFEemEXt2Xl4w-3Q" name="CarSystem">
+    <eAnnotations xmi:id="_sLbYw_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbYxPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFMWAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedOperation xmi:id="_sLbYxfZFEemEXt2Xl4w-3Q" name="main">
+      <eAnnotations xmi:id="_sLbYxvZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbYx_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFMmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbYyPZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+        <eAnnotations xmi:id="_sLbYyfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbYyvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFM2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_sLbYy_ZFEemEXt2Xl4w-3Q" name="CarHandler">
+    <eAnnotations xmi:id="_sLbYzPZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbYzfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFNGAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_sLbYzvZFEemEXt2Xl4w-3Q" name="route" visibility="private">
+      <eAnnotations xmi:id="_sLbYz_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY0PZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFNWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_sLbY0fZFEemEXt2Xl4w-3Q" name="currentSpeedLimit" visibility="private">
+      <eAnnotations xmi:id="_sLbY0vZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY0_ZFEemEXt2Xl4w-3Q" key="uuid" value="_bIR58HPMEDeDl4iGAFSzww"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_sLbY1PZFEemEXt2Xl4w-3Q" name="startNavigation">
+      <eAnnotations xmi:id="_sLbY1fZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY1vZFEemEXt2Xl4w-3Q" key="uuid" value="_xKkFNmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbY1_ZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+        <eAnnotations xmi:id="_sLbY2PZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY2fZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksQGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sLbY2vZFEemEXt2Xl4w-3Q" name="startDriving">
+      <eAnnotations xmi:id="_sLbY2_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY3PZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksQWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbY3fZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+        <eAnnotations xmi:id="_sLbY3vZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY3_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksQmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sLbY4PZFEemEXt2Xl4w-3Q" name="adaptSpeed" visibility="private">
+      <eAnnotations xmi:id="_sLbY4fZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY4vZFEemEXt2Xl4w-3Q" key="uuid" value="_BrxDUHPMEDeDl4iGAFSzww"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbY4_ZFEemEXt2Xl4w-3Q" name="returnParameter" type="_sLb_0fZFEemEXt2Xl4w-3Q" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_sLbY5PZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY5fZFEemEXt2Xl4w-3Q" key="uuid" value="_nGv3EHPMEDeDl4iGAFSzww"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sLbY5vZFEemEXt2Xl4w-3Q" name="checkSpeedLimit">
+      <eAnnotations xmi:id="_sLbY5_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY6PZFEemEXt2Xl4w-3Q" key="uuid" value="_8KYAQYLSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbY6fZFEemEXt2Xl4w-3Q" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_sLbY6vZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY6_ZFEemEXt2Xl4w-3Q" key="uuid" value="__LeZwILSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sLbY7PZFEemEXt2Xl4w-3Q" name="calculateDesiredSpeed" visibility="private">
+      <eAnnotations xmi:id="_sLbY7fZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY7vZFEemEXt2Xl4w-3Q" key="uuid" value="_Y40BMNhzEDe3bZJqa4Gqmg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_sLbY7_ZFEemEXt2Xl4w-3Q" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_sLbY8PZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY8fZFEemEXt2Xl4w-3Q" key="uuid" value="_a0u7UNhzEDe3bZJqa4Gqmg"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Package" xmi:id="_sLbY8vZFEemEXt2Xl4w-3Q" name="CarNavigationService">
+    <eAnnotations xmi:id="_sLbY8_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLbY9PZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksQ2AfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <packagedElement xsi:type="uml:Interface" xmi:id="_sLbY9fZFEemEXt2Xl4w-3Q" name="NavigationService">
+      <eAnnotations xmi:id="_sLbY9vZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbY9_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksRGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_sLbY-PZFEemEXt2Xl4w-3Q" name="invoke">
+        <eAnnotations xmi:id="_sLbY-fZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbY-vZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksRWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbY-_ZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+          <eAnnotations xmi:id="_sLbY_PZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbY_fZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksRmAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+          <type xsi:type="uml:DataType" href="genmymodel://_0sMAEHu2EemZdOOrcag7Wg#//void.1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_sLbY_vZFEemEXt2Xl4w-3Q" name="getRoute">
+        <eAnnotations xmi:id="_sLbY__ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLbZAPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksR2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_sLbZAfZFEemEXt2Xl4w-3Q" name="parameter0" direction="return">
+          <eAnnotations xmi:id="_sLbZAvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLbZA_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksSGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_sLbZBPZFEemEXt2Xl4w-3Q" name="Impl">
+      <eAnnotations xmi:id="_sLbZBfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLbZBvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksSWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLb_MPZFEemEXt2Xl4w-3Q" name="GoogleMapsNavigationService">
+        <eAnnotations xmi:id="_sLb_MfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_MvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKksSmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <interfaceRealization xmi:id="_sLb_M_ZFEemEXt2Xl4w-3Q" client="_sLb_MPZFEemEXt2Xl4w-3Q" supplier="_sLbY9fZFEemEXt2Xl4w-3Q" contract="_sLbY9fZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLb_NPZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLb_NfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTUGAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Class" xmi:id="_sLb_NvZFEemEXt2Xl4w-3Q" name="CarNavigationService">
+        <eAnnotations xmi:id="_sLb_N_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_OPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTUWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+        <interfaceRealization xmi:id="_sLb_OfZFEemEXt2Xl4w-3Q" client="_sLb_NvZFEemEXt2Xl4w-3Q" supplier="_sLbY9fZFEemEXt2Xl4w-3Q" contract="_sLbY9fZFEemEXt2Xl4w-3Q">
+          <eAnnotations xmi:id="_sLb_OvZFEemEXt2Xl4w-3Q" source="genmymodel">
+            <details xmi:id="_sLb_O_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTUmAfEDeLk9y2VW3j9w"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_PPZFEemEXt2Xl4w-3Q" name="CarHandler_Motor" memberEnd="_sLb_SPZFEemEXt2Xl4w-3Q _sLb_P_ZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_P_ZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_PfZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_PvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTVWAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_P_ZFEemEXt2Xl4w-3Q" name="motor" type="_sLbYfvZFEemEXt2Xl4w-3Q" association="_sLb_PPZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_QPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_QfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTVmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_QvZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_Q_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_RPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6YGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_RfZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_RvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_R_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6YWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_SPZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_PPZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_SfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_SvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6YmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_S_ZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_TPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_TfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6Y2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_TvZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_T_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_UPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6ZGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_UfZFEemEXt2Xl4w-3Q" name="CarHandler_Brake" memberEnd="_sLb_XfZFEemEXt2Xl4w-3Q _sLb_VPZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_VPZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_UvZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_U_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6ZWAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_VPZFEemEXt2Xl4w-3Q" name="brake" type="_sLbYafZFEemEXt2Xl4w-3Q" association="_sLb_UfZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_VfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_VvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6ZmAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_V_ZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_WPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_WfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6Z2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_WvZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_W_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_XPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKl6aGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_XfZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_UfZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_XvZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_X_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhcGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_YPZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_YfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_YvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhcWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_Y_ZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_ZPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_ZfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhcmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_ZvZFEemEXt2Xl4w-3Q" name="CarHandler_Wheel" memberEnd="_sLb_cvZFEemEXt2Xl4w-3Q _sLb_afZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_afZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_Z_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_aPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhc2AfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_afZFEemEXt2Xl4w-3Q" name="wheel" type="_sLbYjfZFEemEXt2Xl4w-3Q" association="_sLb_ZvZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_avZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_a_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhdGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_bPZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_bfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_bvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhdWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_b_ZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_cPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_cfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhdmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_cvZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_ZvZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_c_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_dPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhd2AfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_dfZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_dvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_d_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmheGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_ePZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_efZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_evZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmheWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_e_ZFEemEXt2Xl4w-3Q" name="CarHandler_Accelerator" memberEnd="_sLb_h_ZFEemEXt2Xl4w-3Q _sLb_fvZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_fvZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_fPZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_ffZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhemAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_fvZFEemEXt2Xl4w-3Q" name="accelerator" type="_sLbYs_ZFEemEXt2Xl4w-3Q" association="_sLb_e_ZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_f_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_gPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhe2AfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_gfZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_gvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_g_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKmhfGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_hPZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_hfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_hvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIgGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_h_ZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_e_ZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_iPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_ifZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIgWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_ivZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_i_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_jPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIgmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_jfZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_jvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_j_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIg2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_kPZFEemEXt2Xl4w-3Q" name="CarSystem_CarHandler" memberEnd="_sLb_nPZFEemEXt2Xl4w-3Q _sLb_k_ZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_k_ZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_kfZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_kvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIhGAfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_k_ZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_kPZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_lPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_lfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIhWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_lvZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_l_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_mPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIhmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_mfZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_mvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_m_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIh2AfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_nPZFEemEXt2Xl4w-3Q" name="carSystem" type="_sLbYwvZFEemEXt2Xl4w-3Q" association="_sLb_kPZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_nfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_nvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIiGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_n_ZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_oPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_ofZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIiWAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_ovZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_o_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_pPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIimAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_pfZFEemEXt2Xl4w-3Q" name="CarHandler_NavigationService" memberEnd="_sLb_r_ZFEemEXt2Xl4w-3Q _sLb_qPZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_qPZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_pvZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_p_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIi2AfEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_qPZFEemEXt2Xl4w-3Q" name="navigationService" type="_sLbY9fZFEemEXt2Xl4w-3Q" association="_sLb_pfZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_qfZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_qvZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnIjGAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_q_ZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_rPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_rfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnvkGAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLb_rvZFEemEXt2Xl4w-3Q" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_r_ZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_pfZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_sPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_sfZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnvkWAfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_svZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_s_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_tPZFEemEXt2Xl4w-3Q" key="uuid" value="_xKnvkmAfEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLb_tfZFEemEXt2Xl4w-3Q"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_tvZFEemEXt2Xl4w-3Q" name="CarHandler_TrafficObjectLocatorService" memberEnd="_sLb_ufZFEemEXt2Xl4w-3Q _sLb_wvZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_ufZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_t_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_uPZFEemEXt2Xl4w-3Q" key="uuid" value="_CwcSk2AnEDeLk9y2VW3j9w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_ufZFEemEXt2Xl4w-3Q" name="trafficObjectLocatorService" type="_sLbYKvZFEemEXt2Xl4w-3Q" association="_sLb_tvZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_uvZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_u_ZFEemEXt2Xl4w-3Q" key="uuid" value="_CwcSkGAnEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_vPZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_vfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_vvZFEemEXt2Xl4w-3Q" key="uuid" value="_CwcSkWAnEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_v_ZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_wPZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_wfZFEemEXt2Xl4w-3Q" key="uuid" value="_CwcSkmAnEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_wvZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_tvZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_w_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_xPZFEemEXt2Xl4w-3Q" key="uuid" value="_CwYoMWAnEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_xfZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_xvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_x_ZFEemEXt2Xl4w-3Q" key="uuid" value="_CwbrgGAnEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_yPZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_yfZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_yvZFEemEXt2Xl4w-3Q" key="uuid" value="_CwbrgWAnEDeLk9y2VW3j9w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Package" xmi:id="_sLb_y_ZFEemEXt2Xl4w-3Q" name="DTO">
+    <eAnnotations xmi:id="_sLb_zPZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_zfZFEemEXt2Xl4w-3Q" key="uuid" value="_JJv3cYIoEDeRK4O-868r6w"/>
+    </eAnnotations>
+    <packagedElement xsi:type="uml:Class" xmi:id="_sLb_zvZFEemEXt2Xl4w-3Q" name="Route">
+      <eAnnotations xmi:id="_sLb_z_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_0PZFEemEXt2Xl4w-3Q" key="uuid" value="_VUmqwIIoEDeRK4O-868r6w"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xsi:type="uml:DataType" xmi:id="_sLb_0fZFEemEXt2Xl4w-3Q" name="void">
+      <eAnnotations xmi:id="_sLb_0vZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_0_ZFEemEXt2Xl4w-3Q" key="uuid" value="_xKlTU2AfEDeLk9y2VW3j9w"/>
+      </eAnnotations>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_sLb_1PZFEemEXt2Xl4w-3Q" name="ObstacleDetector">
+    <eAnnotations xmi:id="_sLb_1fZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_1vZFEemEXt2Xl4w-3Q" key="uuid" value="_fB6cUILSEDefbfIfFy9ybQ"/>
+    </eAnnotations>
+    <ownedOperation xmi:id="_sLb_1_ZFEemEXt2Xl4w-3Q" name="checkForObstacle">
+      <eAnnotations xmi:id="_sLb_2PZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_2fZFEemEXt2Xl4w-3Q" key="uuid" value="_lzkWUILSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_sLb_2vZFEemEXt2Xl4w-3Q" name="Obstacle">
+    <eAnnotations xmi:id="_sLb_2_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_3PZFEemEXt2Xl4w-3Q" key="uuid" value="_gnghIYLSEDefbfIfFy9ybQ"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_sLb_3fZFEemEXt2Xl4w-3Q" name="speed" visibility="private">
+      <eAnnotations xmi:id="_sLb_3vZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_3_ZFEemEXt2Xl4w-3Q" key="uuid" value="_hsi2kILSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_4PZFEemEXt2Xl4w-3Q" name="ObstacleDetector_Obstacle" memberEnd="_sLb_4_ZFEemEXt2Xl4w-3Q _sLb_6vZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_4_ZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_4fZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_4vZFEemEXt2Xl4w-3Q" key="uuid" value="_tugMkYLSEDefbfIfFy9ybQ"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_4_ZFEemEXt2Xl4w-3Q" name="detectedObstacles" type="_sLb_2vZFEemEXt2Xl4w-3Q" association="_sLb_4PZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_5PZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_5fZFEemEXt2Xl4w-3Q" key="uuid" value="_tuflgoLSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_5vZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_5_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_6PZFEemEXt2Xl4w-3Q" key="uuid" value="_tuflg4LSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLb_6fZFEemEXt2Xl4w-3Q" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb_6vZFEemEXt2Xl4w-3Q" name="obstacleDetector" type="_sLb_1PZFEemEXt2Xl4w-3Q" association="_sLb_4PZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_6_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_7PZFEemEXt2Xl4w-3Q" key="uuid" value="_tudJQYLSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_7fZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLb_7vZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_7_ZFEemEXt2Xl4w-3Q" key="uuid" value="_tuflgILSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_8PZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_8fZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_8vZFEemEXt2Xl4w-3Q" key="uuid" value="_tuflgYLSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_sLb_8_ZFEemEXt2Xl4w-3Q" name="CarHandler_ObstacleDetector" memberEnd="_sLb_9vZFEemEXt2Xl4w-3Q _sLb___ZFEemEXt2Xl4w-3Q" navigableOwnedEnd="_sLb_9vZFEemEXt2Xl4w-3Q">
+    <eAnnotations xmi:id="_sLb_9PZFEemEXt2Xl4w-3Q" source="genmymodel">
+      <details xmi:id="_sLb_9fZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTRoLSEDefbfIfFy9ybQ"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_sLb_9vZFEemEXt2Xl4w-3Q" name="obstacleDetector" type="_sLb_1PZFEemEXt2Xl4w-3Q" association="_sLb_8_ZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLb_9_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLb_-PZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTQ4LSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLb_-fZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb_-vZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb_-_ZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTRILSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLb__PZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLb__fZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLb__vZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTRYLSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sLb___ZFEemEXt2Xl4w-3Q" name="carHandler" type="_sLbYy_ZFEemEXt2Xl4w-3Q" association="_sLb_8_ZFEemEXt2Xl4w-3Q">
+      <eAnnotations xmi:id="_sLcAAPZFEemEXt2Xl4w-3Q" source="genmymodel">
+        <details xmi:id="_sLcAAfZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTQILSEDefbfIfFy9ybQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_sLcAAvZFEemEXt2Xl4w-3Q">
+        <eAnnotations xmi:id="_sLcAA_ZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLcABPZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTQYLSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_sLcABfZFEemEXt2Xl4w-3Q" value="1">
+        <eAnnotations xmi:id="_sLcABvZFEemEXt2Xl4w-3Q" source="genmymodel">
+          <details xmi:id="_sLcAB_ZFEemEXt2Xl4w-3Q" key="uuid" value="_uvdTQoLSEDefbfIfFy9ybQ"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

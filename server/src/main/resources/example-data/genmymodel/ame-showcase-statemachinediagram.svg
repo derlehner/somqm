@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg font-family='Arial, LiberationSans' font-size='13'
+  height='301.0px' version='1.1'
+  viewBox='160 79 956 301' width='956.0px' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <linearGradient id='86f6d0d7-d1b4-49e9-89fd-0d77245cf7fc' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='479068ea-4f54-44c2-83ac-9d7ba0675af3' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <linearGradient id='622a1602-d39e-4682-be14-b04764cc07b2' spreadMethod='pad' x1='0.0%' x2='0.0%'
+      y1='0.0%' y2='100.0%'>
+      <stop offset='0' stop-color='rgb(255, 255, 255)' stop-opacity='1'/>
+      <stop offset='100' stop-color='rgb(239, 233, 222)' stop-opacity='1'/>
+    </linearGradient>
+    <style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>
+  </defs>
+  <desc>BehaviorStateMachineDiagram</desc>
+  <g id='_Mzn6YFlmEDePdbzfP0Lrjw' transform='translate(190.0,191.0)'>
+    <circle cx='9.0' cy='9.0' fill='rgb(77, 77, 77)' look='allInOne' r='9.0'
+      stroke='rgb(136, 136, 136)' stroke-width='1.0'/>
+  </g>
+  <g id='_TgPjYFlmEDePdbzfP0Lrjw' transform='translate(360.0,170.0)'>
+    <rect fill='url(#86f6d0d7-d1b4-49e9-89fd-0d77245cf7fc)' height='60.0px' look='allInOne' rx='10.0' ry='10.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='100.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' text-anchor='middle' x='50.0' y='22.0'>
+      StartJourney
+    </text>
+  </g>
+  <g id='_Tm1eIFlnEDe3aoxO2DXBQg' transform='translate(579.0,109.0)'>
+    <rect fill='url(#479068ea-4f54-44c2-83ac-9d7ba0675af3)' height='60.0px' look='allInOne' rx='10.0' ry='10.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='100.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' text-anchor='middle' x='50.0' y='22.0'>Driving
+      Mode
+    </text>
+  </g>
+  <g id='_aG4qwVlnEDe3aoxO2DXBQg' transform='translate(907.0,109.0)'>
+    <rect fill='url(#622a1602-d39e-4682-be14-b04764cc07b2)' height='60.0px' look='allInOne' rx='10.0' ry='10.0' stroke='rgb(194, 183, 159)'
+      stroke-width='1.0' width='179.0px' x='0.0'
+      y='0.0'/>
+    <text fill='rgb(128, 98, 33)' font-size='13' text-anchor='middle' x='89.5' y='22.0'>Traffic
+      Light Handling Mode
+    </text>
+  </g>
+  <g id='_OrizYVloEDe3aoxO2DXBQg' transform='translate(630.0,330.0)'>
+    <circle cx='10.0' cy='10.0' fill='rgb(255, 255, 255)' look='border' r='10.0'
+      stroke='rgb(136, 136, 136)' stroke-width='1.0'/>
+    <circle cx='10.0' cy='10.0' fill='rgb(77, 77, 77)' look='background' r='6.0'
+      stroke='rgb(77, 77, 77)' stroke-width='1.0'/>
+  </g>
+  <g id='_mGpBUllnEDe3aoxO2DXBQg'>
+    <line fill='none' id='_mGq2gllnEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='460.0'
+      x2='579.0' y1='186.0' y2='152.0'/>
+    <polyline fill='none' points='-5.0,10.0 0.0,0.0 5.0,10.0'
+      stroke='rgb(0, 0, 0)' stroke-width='1.0' transform='translate(579.0,152.0) rotate(74.05460409907715)'/>
+  </g>
+  <g id='_vRkf0FlnEDe3aoxO2DXBQg'>
+    <line fill='none' id='_vRlG4llnEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='679.0'
+      x2='907.0' y1='139.0' y2='139.0'/>
+    <polyline fill='none' points='-5.0,10.0 0.0,0.0 5.0,10.0' stroke='rgb(0, 0, 0)'
+      stroke-width='1.0' transform='translate(907.0,139.0) rotate(90.0)'/>
+  </g>
+  <g id='_G_-14FloEDe3aoxO2DXBQg'>
+    <line fill='none' id='_HAArElloEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='923.0'
+      x2='820.0' y1='169.0' y2='210.0'/>
+  </g>
+  <g id='_G_-14FloEDe3aoxO2DXBQg'>
+    <line fill='none' id='_HSDdUFloEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='820.0'
+      x2='679.0' y1='210.0' y2='157.0'/>
+    <polyline fill='none' points='-5.0,10.0 0.0,0.0 5.0,10.0'
+      stroke='rgb(0, 0, 0)' stroke-width='1.0' transform='translate(679.0,157.0) rotate(-69.39943592417514)'/>
+  </g>
+  <g id='_N5Gp0lloEDe3aoxO2DXBQg'>
+    <line fill='none' id='_N5HQ5FloEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='208.0'
+      x2='360.0' y1='200.0' y2='200.0'/>
+    <polyline fill='none' points='-5.0,10.0 0.0,0.0 5.0,10.0' stroke='rgb(0, 0, 0)'
+      stroke-width='1.0' transform='translate(360.0,200.0) rotate(90.0)'/>
+  </g>
+  <g id='_PVMNU1loEDe3aoxO2DXBQg'>
+    <line fill='none' id='_PVNbclloEDe3aoxO2DXBQg' stroke='rgb(0, 0, 0)' stroke-width='1.0' x1='630.0'
+      x2='639.0' y1='169.0' y2='330.0'/>
+    <polyline fill='none' points='-5.0,10.0 0.0,0.0 5.0,10.0'
+      stroke='rgb(0, 0, 0)' stroke-width='1.0' transform='translate(639.0,330.0) rotate(176.80046029043743)'/>
+  </g>
+  <text fill='rgb(0, 0, 0)' x='557.0' y='209.0'></text>
+  <text fill='rgb(0, 0, 0)' x='738.0' y='124.0'></text>
+  <text fill='rgb(0, 0, 0)' x='909.0' y='230.0'></text>
+  <text fill='rgb(0, 0, 0)' x='321.0' y='240.0'></text>
+  <text fill='rgb(0, 0, 0)' x='672.0' y='290.0'></text>
+</svg>

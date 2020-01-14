@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:xmi="http://www.omg.org/XMI"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  name="model" xmi:id="_edAeIHdCEemaZ70j6DJxGQ" xmi:version="2.0">
+  <eAnnotations source="genmymodel" xmi:id="_edAeIXdCEemaZ70j6DJxGQ">
+    <details key="uuid" value="_4oiX4Hc3EemaZ70j6DJxGQ" xmi:id="_edAeIndCEemaZ70j6DJxGQ"/>
+    <details key="author" value="derlehner" xmi:id="_edAeI3dCEemaZ70j6DJxGQ"/>
+  </eAnnotations>
+  <packageImport xmi:id="_edAeJHdCEemaZ70j6DJxGQ">
+    <eAnnotations source="genmymodel" xmi:id="_edAeJXdCEemaZ70j6DJxGQ">
+      <details key="uuid" value="_4oiX4Xc3EemaZ70j6DJxGQ" xmi:id="_edAeJndCEemaZ70j6DJxGQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement name="StateMachine" xmi:id="_edAeJ3dCEemaZ70j6DJxGQ" xsi:type="uml:StateMachine">
+    <eAnnotations source="genmymodel" xmi:id="_edAeKHdCEemaZ70j6DJxGQ">
+      <details key="uuid" value="_LFmSUllmEDePdbzfP0Lrjw" xmi:id="_edAeKXdCEemaZ70j6DJxGQ"/>
+    </eAnnotations>
+    <region name="region" xmi:id="_edAeKndCEemaZ70j6DJxGQ">
+      <eAnnotations source="genmymodel" xmi:id="_edAeK3dCEemaZ70j6DJxGQ">
+        <details key="uuid" value="_LFngcFlmEDePdbzfP0Lrjw" xmi:id="_edAeLHdCEemaZ70j6DJxGQ"/>
+      </eAnnotations>
+      <subvertex name="Initial" xmi:id="_edAeWndCEemaZ70j6DJxGQ" xsi:type="uml:Pseudostate">
+        <eAnnotations source="genmymodel" xmi:id="_edAeW3dCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_MzmsQFlmEDePdbzfP0Lrjw" xmi:id="_edAeXHdCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex name="StartJourney" xmi:id="_edAeXXdCEemaZ70j6DJxGQ" xsi:type="uml:State">
+        <doActivity name="Calculate Route" xmi:id="_edAeYHdCEemaZ70j6DJxGQ" xsi:type="uml:Activity">
+          <eAnnotations source="genmymodel" xmi:id="_edAeYXdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_bPg8MVlmEDePdbzfP0Lrjw" xmi:id="_edAeYndCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+        </doActivity>
+        <eAnnotations source="genmymodel" xmi:id="_edAeXndCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_TgOVQFlmEDePdbzfP0Lrjw" xmi:id="_edAeX3dCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <entry name="Enter Destination" xmi:id="_edAeY3dCEemaZ70j6DJxGQ" xsi:type="uml:Activity">
+          <eAnnotations source="genmymodel" xmi:id="_edAeZHdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_XeI8UFlmEDePdbzfP0Lrjw" xmi:id="_edAeZXdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+        </entry>
+        <exit name="Start Motor" xmi:id="_edAeZndCEemaZ70j6DJxGQ" xsi:type="uml:Activity">
+          <eAnnotations source="genmymodel" xmi:id="_edAeZ3dCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_dahbMVlmEDePdbzfP0Lrjw" xmi:id="_edAeaHdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+        </exit>
+      </subvertex>
+      <subvertex name="Driving Mode" xmi:id="_edAeaXdCEemaZ70j6DJxGQ" xsi:type="uml:State">
+        <eAnnotations source="genmymodel" xmi:id="_edAeandCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_Tmzo8FlnEDe3aoxO2DXBQg" xmi:id="_edAea3dCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+      </subvertex>
+      <subvertex name="Traffic Light Handling Mode" xmi:id="_edAebHdCEemaZ70j6DJxGQ"
+        xsi:type="uml:State">
+        <doActivity name="HandleTrafficLight" xmi:id="_edAeb3dCEemaZ70j6DJxGQ"
+          xsi:type="uml:Activity">
+          <eAnnotations source="genmymodel" xmi:id="_edAecHdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_eD36MVlmEDePdbzfP0Lrjw" xmi:id="_edAecXdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+        </doActivity>
+        <eAnnotations source="genmymodel" xmi:id="_edAebXdCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_aG3coVlnEDe3aoxO2DXBQg" xmi:id="_edAebndCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <entry name="Check for Traffic Objects + Steer to stay on track + Adapt speed" xmi:id="_edAecndCEemaZ70j6DJxGQ"
+          xsi:type="uml:Activity">
+          <eAnnotations source="genmymodel" xmi:id="_edAec3dCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_d7VCMVlmEDePdbzfP0Lrjw" xmi:id="_edAedHdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+        </entry>
+      </subvertex>
+      <subvertex name="FinalState" xmi:id="_edAedXdCEemaZ70j6DJxGQ" xsi:type="uml:FinalState">
+        <eAnnotations source="genmymodel" xmi:id="_edAedndCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_OrhlQFloEDe3aoxO2DXBQg" xmi:id="_edAed3dCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+      </subvertex>
+      <transition guard="_edAeMHdCEemaZ70j6DJxGQ" name="" source="_edAeXXdCEemaZ70j6DJxGQ"
+        target="_edAeaXdCEemaZ70j6DJxGQ" xmi:id="_edAeLXdCEemaZ70j6DJxGQ">
+        <eAnnotations source="genmymodel" xmi:id="_edAeLndCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_mGpBUllnEDe3aoxO2DXBQg" xmi:id="_edAeL3dCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_edAeMHdCEemaZ70j6DJxGQ">
+          <eAnnotations source="genmymodel" xmi:id="_edAeMXdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_mGpBUVlnEDe3aoxO2DXBQg" xmi:id="_edAeMndCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_edAeM3dCEemaZ70j6DJxGQ" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_edAeNHdCEemaZ70j6DJxGQ">
+              <details key="uuid" value="_mGpBUFlnEDe3aoxO2DXBQg" xmi:id="_edAeNXdCEemaZ70j6DJxGQ"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_edAeOXdCEemaZ70j6DJxGQ" name="Traffic Light detected"
+        source="_edAeaXdCEemaZ70j6DJxGQ" target="_edAebHdCEemaZ70j6DJxGQ"
+        xmi:id="_edAeNndCEemaZ70j6DJxGQ">
+        <eAnnotations source="genmymodel" xmi:id="_edAeN3dCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_vRkf0FlnEDe3aoxO2DXBQg" xmi:id="_edAeOHdCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_edAeOXdCEemaZ70j6DJxGQ">
+          <eAnnotations source="genmymodel" xmi:id="_edAeOndCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_vRj4w1lnEDe3aoxO2DXBQg" xmi:id="_edAeO3dCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+          <specification value="" xmi:id="_edAePHdCEemaZ70j6DJxGQ" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_edAePXdCEemaZ70j6DJxGQ">
+              <details key="uuid" value="_vRj4wllnEDe3aoxO2DXBQg" xmi:id="_edAePndCEemaZ70j6DJxGQ"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_edAeQndCEemaZ70j6DJxGQ" name="Color of Traffic Light is green"
+        source="_edAebHdCEemaZ70j6DJxGQ" target="_edAeaXdCEemaZ70j6DJxGQ"
+        xmi:id="_edAeP3dCEemaZ70j6DJxGQ">
+        <eAnnotations source="genmymodel" xmi:id="_edAeQHdCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_G_-14FloEDe3aoxO2DXBQg" xmi:id="_edAeQXdCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_edAeQndCEemaZ70j6DJxGQ">
+          <eAnnotations source="genmymodel" xmi:id="_edAeQ3dCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_G_-O0lloEDe3aoxO2DXBQg" xmi:id="_edAeRHdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+          <specification value="" xmi:id="_edAeRXdCEemaZ70j6DJxGQ" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_edAeRndCEemaZ70j6DJxGQ">
+              <details key="uuid" value="_G_-O0VloEDe3aoxO2DXBQg" xmi:id="_edAeR3dCEemaZ70j6DJxGQ"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_edAeS3dCEemaZ70j6DJxGQ" name="" source="_edAeWndCEemaZ70j6DJxGQ"
+        target="_edAeXXdCEemaZ70j6DJxGQ" xmi:id="_edAeSHdCEemaZ70j6DJxGQ">
+        <eAnnotations source="genmymodel" xmi:id="_edAeSXdCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_N5Gp0lloEDe3aoxO2DXBQg" xmi:id="_edAeSndCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_edAeS3dCEemaZ70j6DJxGQ">
+          <eAnnotations source="genmymodel" xmi:id="_edAeTHdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_N5Gp0VloEDe3aoxO2DXBQg" xmi:id="_edAeTXdCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+          <specification value="true" xmi:id="_edAeTndCEemaZ70j6DJxGQ" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_edAeT3dCEemaZ70j6DJxGQ">
+              <details key="uuid" value="_N5Gp0FloEDe3aoxO2DXBQg" xmi:id="_edAeUHdCEemaZ70j6DJxGQ"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition guard="_edAeVHdCEemaZ70j6DJxGQ" name="Destination reached"
+        source="_edAeaXdCEemaZ70j6DJxGQ" target="_edAedXdCEemaZ70j6DJxGQ"
+        xmi:id="_edAeUXdCEemaZ70j6DJxGQ">
+        <eAnnotations source="genmymodel" xmi:id="_edAeUndCEemaZ70j6DJxGQ">
+          <details key="uuid" value="_PVMNU1loEDe3aoxO2DXBQg" xmi:id="_edAeU3dCEemaZ70j6DJxGQ"/>
+        </eAnnotations>
+        <ownedRule xmi:id="_edAeVHdCEemaZ70j6DJxGQ">
+          <eAnnotations source="genmymodel" xmi:id="_edAeVXdCEemaZ70j6DJxGQ">
+            <details key="uuid" value="_PVMNUlloEDe3aoxO2DXBQg" xmi:id="_edAeVndCEemaZ70j6DJxGQ"/>
+          </eAnnotations>
+          <specification value="" xmi:id="_edAeV3dCEemaZ70j6DJxGQ" xsi:type="uml:LiteralString">
+            <eAnnotations source="genmymodel" xmi:id="_edAeWHdCEemaZ70j6DJxGQ">
+              <details key="uuid" value="_PVMNUVloEDe3aoxO2DXBQg" xmi:id="_edAeWXdCEemaZ70j6DJxGQ"/>
+            </eAnnotations>
+          </specification>
+        </ownedRule>
+      </transition>
+    </region>
+  </packagedElement>
+</uml:Model>

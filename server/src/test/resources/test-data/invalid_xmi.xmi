@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmlns:uml="http://www.omg.org/spec/UML/20090901" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+  name="testCase1" xmi:id="_0" xmi:version="2.1">
+  <packagedElement name="package1" xmi:id="package1" xmi:type="uml:Package">
+    <ownedComment annotatedElement="package1-Class3" xmi:id="package1-_ownedComment.0"
+      xmi:type="uml:Comment">
+      <body>Private visibility.</body>
+    </ownedComment>
+    <packagedElement isAbstract="true" name="Class1" xmi:id="package1-Class1" xmi:type="uml:Class">
+      <ownedAttribute name="attribute1" visibility="public" xmi:id="package1-Class1-attribute1"
+        xmi:type="uml:Property">
+        <lowerValue xmi:id="package1-Class1-attribute1-_lowerValue" xmi:type="uml:LiteralInteger"/>
+        <type href="http://www.omg.org/spec/UML/20090901/UML.xmi#Boolean"
+          xmi:type="uml:PrimitiveType"/>
+      </ownedAttribute>
+      <ownedAttribute association="package1-Association1" name="class3_1" type="package1-Class3"
+        visibility="private" xmi:id="package1-Class1-class3_1" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Class2" xmi:id="package1-Class2" xmi:type="uml:Class">
+      <ownedAttribute xmi:type="uml:Property
